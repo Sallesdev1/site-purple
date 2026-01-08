@@ -3,18 +3,18 @@ import { UploadIcon, VideoIcon, ZapIcon } from 'lucide-react';
 export const featuresData = [
     {
         icon: <UploadIcon className="w-6 h-6" />,
-        title: 'Discovery & Planning',
-        desc: 'We understand your goals, audience and challenges to craft a clear, actionable strategy.'
+        title: 'Diagnóstico',
+        desc: 'Levantaremos juntos, quais são as suas necessidades e quais são as oportunidades que seu marketing pode explorar mais!'
     },
     {
         icon: <ZapIcon className="w-6 h-6" />,
-        title: 'Design & Development',
-        desc: 'High-quality design and scalable development focused on performance and usability.'
+        title: 'Projeto',
+        desc: 'Depois de analisar, encontraremos as oportunidades certas e criaremos o projeto que realmente funciona pro seu negócio. O seu projeto é totalmente exclusivo e único para a realidade atual do seu negócio.'
     },
     {
         icon: <VideoIcon className="w-6 h-6" />,
-        title: 'Launch & Growth',
-        desc: 'We launch, optimize and continuously improve to drive measurable business growth.'
+        title: 'Ação',
+        desc: 'Hora da mão na massa! Não adiantaria nada te mostrarmos o caminho do ouro se não fossemos atrás dele, com você!'
     }
 ];
 

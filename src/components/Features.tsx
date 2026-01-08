@@ -10,9 +10,9 @@ export default function Features() {
             <div className="max-w-6xl mx-auto px-4">
 
                 <Title
-                    title="Services"
-                    heading="Everything your brand needs to grow"
-                    description="From strategy to execution, we help businesses build strong digital products and meaningful customer experiences."
+                    title="Serviços"
+                    heading="Tudo o que sua marca precisa para crescer"
+                    description="Da estratégia à execução, ajudamos empresas a construir produtos digitais sólidos e experiências significativas para os clientes."
                 />
 
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
