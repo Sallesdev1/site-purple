@@ -11,9 +11,8 @@ export default function Faq() {
             <div className="max-w-3xl mx-auto px-4">
 
                 <Title
-                    title="FAQ"
-                    heading="Frequently asked questions"
-                    description="Everything you need to know about working with our agency. If you have more questions, feel free to reach out."
+                    heading="Por que escolher a Purple?"
+                    description="Tudo o que você precisa saber sobre trabalhar com nossa agência. Se tiver mais perguntas, sinta-se à vontade para entrar em contato."
                 />
 
                 <div className="space-y-3">

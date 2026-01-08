@@ -66,46 +66,53 @@ export const plansData = [
 
 export const faqData = [
     {
-        question: 'What services does your agency provide?',
-        answer: 'We offer end-to-end digital services including brand strategy, UI/UX design, web and app development and growth-focused marketing solutions.'
+        question: 'Você não precisa montar um time do zero',
+        answer: 'A Purple já tem um time completo de especialistas prontos para atuar. Nada de contratar, treinar e gerenciar equipe interna – você ganha tempo e reduz custos.'
     },
     {
-        question: 'Do you work with startups or only large companies?',
-        answer: 'We work with startups, growing businesses and established brands. Our process is flexible and tailored to match your goals and scale.'
+        question: 'Mão na massa',
+        answer: 'Planejamento sem execução não dá, né??. Criamos, gerenciamos e otimizamos tudo, garantindo que sua estratégia de marketing saia do papel e traga resultado.'
     },
     {
-        question: 'How long does a typical project take?',
-        answer: 'Project timelines vary by scope, but most projects take between 2–6 weeks. We provide a clear timeline after the discovery phase.'
+        question: 'Foco no ouro',
+        answer: 'A prioridade é impactar o público certo e gerar oportunidades reais para o seu negócio, sem desperdício de tempo ou dinheiro. Nosso principal objetivo é fazer o seu negócio crescer.'
     },
     {
-        question: 'Do you offer ongoing support after launch?',
-        answer: 'Yes. We offer maintenance, optimization and growth support packages to ensure your product continues to perform and evolve.'
-    }
+        question: 'Trampo confiável',
+        answer: 'Compromisso, transparência e entrega de qualidade são a base do nosso trabalho. A experiência e os cases da Purple falam por si.'
+    },
+    {
+        question: 'Rapidez e Compromisso',
+        answer: 'Nossas demandas são atendidas no tempo certo, sem comprometer a qualidade ou deixar você na mão. A agilidade faz parte do nosso DNA.'
+    },
+    {
+        question: 'Parceiros, não apenas uma assessoria',
+        answer: 'A Purple trabalha junto com você, sendo uma extensão do seu time e empresa. O sucesso do seu negócio é o nosso maior objetivo.'
+    },
 ];
 
 export const footerLinks = [
     {
-        title: "Company",
+        title: "Navegação",
         links: [
-            { name: "Home", url: "#" },
-            { name: "Services", url: "#" },
-            { name: "Work", url: "#" },
-            { name: "Contact", url: "#" }
+            { name: "Início", url: "#" },
+            { name: "Serviços", url: "#" },
+            { name: "Trabalhos", url: "#" },
+            { name: "Contato", url: "#" }
         ]
     },
     {
-        title: "Legal",
+        title: "Privacidade",
         links: [
-            { name: "Privacy Policy", url: "#" },
-            { name: "Terms of Service", url: "#" }
+            { name: "Politica de Privacidade", url: "#" },
+            { name: "Termos de Serviço", url: "#" }
         ]
     },
     {
-        title: "Connect",
+        title: "Redes Sociais",
         links: [
-            { name: "Twitter", url: "#" },
-            { name: "LinkedIn", url: "#" },
-            { name: "GitHub", url: "#" }
+            { name: "Instagram", url: "https://www.instagram.com/purple.csc/" },
+            { name: "LinkedIn", url: "https://www.linkedin.com/company/purple-csc/?originalSubdomain=br" },
         ]
     }
 ];
