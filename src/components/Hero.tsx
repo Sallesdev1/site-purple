@@ -51,7 +51,7 @@ export default function Hero() {
                                 </span>
                             </motion.a>
 
-                            <motion.h1 className="text-4xl md:text-5xl font-bold leading-tight mb-6 max-w-xl"
+                            <motion.h1 className="text-4xl md:text-5xl font-bold leading-tight mb-6 max-w-xl text-white"
                                 initial={{ y: 60, opacity: 0 }}
                                 whileInView={{ y: 0, opacity: 1 }}
                                 viewport={{ once: true }}
@@ -80,13 +80,13 @@ export default function Hero() {
                                 transition={{ type: "spring", stiffness: 250, damping: 70, mass: 1, delay: 0.3 }}
                             >
                                 <a href="/" className="w-full sm:w-auto">
-                                    <PrimaryButton className="max-sm:w-full py-3 px-7">
+                                    <PrimaryButton className="max-sm:w-full py-3 px-7 text-white">
                                         Beleza, como funciona?
                                         <ArrowRightIcon className="size-4" />
                                     </PrimaryButton>
                                 </a>
 
-                                <GhostButton className="max-sm:w-full max-sm:justify-center py-3 px-5">
+                                <GhostButton className="max-sm:w-full max-sm:justify-center py-3 px-5 text-white">
                                     <PlayIcon className="size-4" />
                                     Saiba mais sobre nós
                                 </GhostButton>

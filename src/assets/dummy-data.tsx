@@ -19,49 +19,58 @@ export const featuresData = [
 ];
 
 export const plansData = [
-    {
-        id: 'starter',
-        name: 'Starter',
-        price: '$499',
-        desc: 'Best for early-stage startups.',
-        credits: 'One-time',
+    {id: 'socialmedia',
+        name: 'Social Media',
+        desc: 'Postar por postar não vai te levar a lugar nenhum!',
         features: [
-            'Project discovery & planning',
-            'UI/UX design',
-            'Basic website development',
-            '1 revision round',
-            'Email support'
+            'Crie conteúdos relevantes e engajados com o seu público-alvo',
+            'Transforme suas redes sociais em canais de aquisição de novos clientes',
+            'Gerenciar redes sociais dá trabalho. A Purple cuida de tudo.',
         ]
     },
     {
-        id: 'pro',
-        name: 'Growth',
-        price: '$1,499',
-        desc: 'Growing teams and businesses.',
-        credits: 'Monthly',
+        id: 'trafegopago',
+        name: 'Performance:',
+        desc: 'Tráfego Pago: Meta, Google, Tik Tok, LinkedIn, etc...',
         features: [
-            'Everything in Starter',
-            'Advanced UI/UX design',
-            'Custom development',
-            'Performance optimization',
-            'Priority support'
+            'Acelere seu fluxo de geração de demanda',
+            'Abasteça seu funil de leads qualificados',
+            'Saiba na vírgula o retorno sobre o seu investimento',
         ],
-        popular: true
     },
     {
-        id: 'ultra',
-        name: 'Scale',
-        price: '$3,999',
-        desc: 'For brands ready to scale fast.',
-        credits: 'Custom',
+        id: 'pagsite',
+        name: 'Criativos',
+        desc: 'Um braço criativo inteiramente à sua disposição.',
         features: [
-            'Everything in Growth',
-            'Dedicated project manager',
-            'Ongoing optimization',
-            'Marketing & growth support',
-            'Chat + Email support'
+            'Criações inteligentes e que geram resultado',
+            'Fluxo de criação rápido e eficiente',
+            'Seu único trabalho é aprovar tudo pra gente!',
         ]
-    }
+    },
+    {
+        id: 'conteudo',
+        name: 'Conteúdo',
+        desc: 'Um braço criativo inteiramente à sua disposição.',
+        features: [
+            'Ative sua comunicação em vários canais e redes',
+            'Meta, LinkedIn, Youtube, X, Tik Tok, Blog, etc…',
+            'Conteúdos específicos para cada tipo de canal e público',
+        ]
+    },
+    {
+        id: 'idvisual',
+        price: '',
+        name: 'Identidade Visual',
+        credits: '',
+        desc: 'Sua empresa precisa de uma cara!',
+        features: [
+            'Criamos tudo do zero para você',
+            'Logotipo, Identidade Visual, Padronização de Comunicação',
+            'Brand Book: A bíblia da sua marca!',
+        ],
+        popular: false
+    },
 ];
 
 export const faqData = [

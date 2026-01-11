@@ -12,12 +12,12 @@ export default function Pricing() {
             <div className="max-w-6xl mx-auto px-4">
 
                 <Title
-                    title="Pricing"
-                    heading="Simple, transparent pricing"
-                    description="Flexible agency packages designed to fit startups, growing teams and established brands."
+                    title="Temos a solução"
+                    heading="A Purple entende as suas necessidades... e RESOLVE!"
+                    description="Escolha o plano que melhor se adapta às necessidades da sua empresa e comece a transformar suas ideias em realidade hoje mesmo."
                 />
 
-                <div className="grid md:grid-cols-3 gap-6 max-w-5xl mx-auto">
+                <div className="grid md:grid-cols-3 gap-6 max-w-5xl mx-auto text-white">
                     {plansData.map((plan, i) => (
                         <motion.div
                             key={i}
@@ -42,7 +42,7 @@ export default function Pricing() {
                         >
                             {plan.popular && (
                                 <p className="absolute -top-3 left-1/2 -translate-x-1/2 px-3 py-1 bg-indigo-600 rounded-md text-xs">
-                                    Most popular
+                                    Mais Popular
                                 </p>
                             )}
 
@@ -51,7 +51,7 @@ export default function Pricing() {
                                 <div className="flex items-end gap-3">
                                     <span className="text-3xl font-extrabold">{plan.price}</span>
                                     <span className="text-sm text-gray-400">
-                                        / {plan.credits}
+                                         {plan.credits}
                                     </span>
                                 </div>
                                 <p className="text-sm text-gray-300 mt-2">
@@ -70,18 +70,6 @@ export default function Pricing() {
                                     </li>
                                 ))}
                             </ul>
-
-                            <div>
-                                {plan.popular ? (
-                                    <PrimaryButton className="w-full">
-                                        Get started
-                                    </PrimaryButton>
-                                ) : (
-                                    <GhostButton className="w-full justify-center">
-                                        Get started
-                                    </GhostButton>
-                                )}
-                            </div>
                         </motion.div>
                     ))}
                 </div>

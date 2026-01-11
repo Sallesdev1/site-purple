@@ -4,6 +4,7 @@ import Pricing from "../components/Pricing";
 import Faq from "../components/Faq";
 import CTA from "../components/CTA";
 
+// Página inicial do site Purple //
 export default function Home() {
     return (
         <>
