@@ -35,32 +35,33 @@ return (
                     </a>
                 ))}
             </div>
-
+            
             <div className='hidden md:flex items-center gap-3'>
                 <button onClick={() => navigate("/signin")}className='text-sm font-medium text-gray-300 hover:text-white transition max-sm:hidden'>
                     Conecte-se
                 </button>
-                <PrimaryButton onClick={() => navigate("/signin")} className='max-sm:text-xs hidden sm:inline-block'>Começar agora</PrimaryButton>
+                <PrimaryButton onClick={() => navigate("/board")} className='max-sm:text-xs hidden sm:inline-block'>Criar conta</PrimaryButton>
             </div>
 
             <button onClick={() => navigate("/signin")} className='md:hidden'>
                 <MenuIcon className='size-6' />
             </button>
         </div>
+        
         <div className={`flex flex-col items-center justify-center gap-6 text-lg font-medium fixed inset-0 bg-black/40 backdrop-blur-md z-50 transition-all duration-300 ${isOpen ? "translate-x-0" : "translate-x-full"}`}>
             {navLinks.map((link) => (
-                <a key={link.name} href={link.href} onClick={() => navigate("/signin")}>
+                <a key={link.name} href={link.href} onClick={() => navigate("/board")}>
                     {link.name}
                 </a>
             ))}
 
-            <button onClick={() => navigate("/signin")} className='font-medium text-gray-300 hover:text-white transition'>
+            <button onClick={() => navigate("/board")} className='font-medium text-gray-300 hover:text-white transition'>
                 Começar agora
             </button>
-            <PrimaryButton onClick={() => navigate("/signin")}>Começar agora</PrimaryButton>
+            <PrimaryButton onClick={() => navigate("/board")}>Começar agora</PrimaryButton>
 
             <button
-                onClick={() => navigate("/signin")}
+                onClick={() => navigate("/board")}
                 className="rounded-md bg-white p-2 text-gray-800 ring-white active:ring-2"
             >
                 <XIcon />
