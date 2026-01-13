@@ -40,7 +40,7 @@ return (
                 <button onClick={() => navigate("/signin")}className='text-sm font-medium text-gray-300 hover:text-white transition max-sm:hidden'>
                     Conecte-se
                 </button>
-                <PrimaryButton onClick={() => navigate("/signup")} className='max-sm:text-xs hidden sm:inline-block'>Criar conta</PrimaryButton>
+                <PrimaryButton onClick={() => navigate("/board")} className='max-sm:text-xs hidden sm:inline-block'>Criar conta</PrimaryButton>
             </div>
 
             <button onClick={() => navigate("/signin")} className='md:hidden'>

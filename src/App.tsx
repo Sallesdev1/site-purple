@@ -9,9 +9,7 @@ import SoftBackdrop from "./components/SoftBackdrop";
 import Footer from "./components/Footer";
 import LenisScroll from "./components/lenis";
 
-// ... outros imports
-import TeamManager from "./pages/TeamManager"; // <--- 1. Importe a página nova
-
+import Tasks from "./pages/tasks";
 function AppContent() {
   const location = useLocation();
 
@@ -33,8 +31,7 @@ function AppContent() {
         <Route path="/signup" element={<Signup />} />
         <Route path="/board" element={<Board />} />
         
-        {/* 3. Crie a rota para acessar o gerenciador */}
-        <Route path="/tarefas" element={<TeamManager />} />
+        <Route path="/tarefas" element={<Tasks />} />
       </Routes>
 
       {showLayout && <Footer />}
