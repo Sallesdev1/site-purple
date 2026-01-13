@@ -9,41 +9,39 @@ import SoftBackdrop from "./components/SoftBackdrop";
 import Footer from "./components/Footer";
 import LenisScroll from "./components/lenis";
 
-// 1. Criamos um componente auxiliar que fica DENTRO do Router
+// ... outros imports
+import TeamManager from "./pages/TeamManager"; // <--- 1. Importe a página nova
+
 function AppContent() {
   const location = useLocation();
 
-  // Defina aqui as rotas onde a Navbar e o Footer DEVEM SUMIR
-  // Geralmente Login, Cadastro e Dashboard não têm a navbar do site institucional
-  const hideLayoutPaths = ["/board", "/signin", "/signup"];
+  // 2. Adicione "/tarefas" (ou o nome que quiser) na lista para esconder a Navbar principal
+  const hideLayoutPaths = ["/board", "/signin", "/signup", "/tarefas"];
   
-  // Verifica se o caminho atual está na lista acima
   const showLayout = !hideLayoutPaths.includes(location.pathname);
 
   return (
     <>
-      {/* Efeitos globais */}
       <SoftBackdrop />
       <LenisScroll />
 
-      {/* A Navbar só aparece se showLayout for verdadeiro */}
       {showLayout && <Navbar />}
 
-      {/* Rotas */}
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/signin" element={<Signin />} />
         <Route path="/signup" element={<Signup />} />
         <Route path="/board" element={<Board />} />
+        
+        {/* 3. Crie a rota para acessar o gerenciador */}
+        <Route path="/tarefas" element={<TeamManager />} />
       </Routes>
 
-      {/* O Footer também costuma sumir no Dashboard */}
       {showLayout && <Footer />}
     </>
   );
 }
 
-// 2. O componente App principal apenas envolve tudo com o BrowserRouter
 function App() {
   return (
     <BrowserRouter>
