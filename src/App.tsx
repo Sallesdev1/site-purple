@@ -8,8 +8,8 @@ import Board from "./pages/board";
 import SoftBackdrop from "./components/SoftBackdrop";
 import Footer from "./components/Footer";
 import LenisScroll from "./components/lenis";
-
 import Tasks from "./pages/tasks";
+
 function AppContent() {
   const location = useLocation();
 
@@ -30,8 +30,8 @@ function AppContent() {
         <Route path="/signin" element={<Signin />} />
         <Route path="/signup" element={<Signup />} />
         <Route path="/board" element={<Board />} />
-        
         <Route path="/tarefas" element={<Tasks />} />
+        
       </Routes>
 
       {showLayout && <Footer />}
